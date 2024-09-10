@@ -1,11 +1,12 @@
 import "./App.css";
+import Main, { Gallery } from "./Main";
 
 function App() {
   return (
     <div>
       <h1>Hello React</h1>
-      <h2>Hi</h2>
-      <h3>Sevgilerle</h3>
+      <Main />
+      <Gallery/>
     </div>
   );
 }
